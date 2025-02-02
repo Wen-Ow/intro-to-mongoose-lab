@@ -1,4 +1,5 @@
 const mongoose = require("mongoose"); // Import mongoose library to interact with MongoDB
+
 const customerSchema = mongoose.Schema({
   // Define the new schema (structure) for the Customer model
   name: String, // The name field is a string or customer's name (text)
